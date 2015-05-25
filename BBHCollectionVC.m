@@ -39,7 +39,7 @@
 //                layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         layout.scrollDirection = UICollectionViewScrollDirectionVertical;
         
-        photos = @[@"Unknown-1.jpeg",@"Unknown-2.jpeg",@"Unknown-3.jpeg",@"Unknown-4.jpeg",@"Unknown-5.jpeg",@"Unknown-6.jpeg",@"Unknown-7.jpeg",@"Unknown.jpeg",@"Unknown-1.jpeg"];
+        photos = @[@"shapes.png",@"animals.png",@"baby.png",@"colors.png",@"house.png",@"people.png",@"mealtime.png",@"bathtime.png",@"bedtime.png"];
         
         themeName = @[@"Shapes",@"Animals",@"Baby",@"Colors",@"House",@"People",@"MealTime",@"BathTime",@"BedTime"];
        
@@ -108,11 +108,9 @@
     [BBHSingleton mainData].theme = themeName[indexPath.row];
     NSLog(@"%@",[BBHSingleton mainData].theme);
     
-    BBHViewController * viewVC = [[BBHViewController alloc] initWithNibName:nil bundle:nil];
-    
+    BBHViewController * viewVC = [[BBHViewController alloc] initWithNibName:nil bundle:nil];    
     [self.navigationController pushViewController:viewVC animated:NO];
 
-    
 }
 
 - (void)viewDidLoad

@@ -15,9 +15,9 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.imagePicture = [[UIImageView alloc] init];
-        self.imagePicture.frame = CGRectMake(0, 0, 100, 100);
+        self.imagePicture.frame = CGRectMake(0, 0, 90, 90);
         self.imagePicture.clipsToBounds = YES;
-        self.imagePicture.layer.cornerRadius = 50;
+        self.imagePicture.layer.cornerRadius = 45;
         [self.contentView addSubview:self.imagePicture];
         
         self.namePicture = [[UILabel alloc] init];

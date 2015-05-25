@@ -50,10 +50,15 @@
                     @"BedTime":@"What do we say for bedtime: Goodnight, Sleepy, Tired",
                     } mutableCopy];
     
-    textGuide = [[UILabel alloc] initWithFrame:CGRectMake(10, self.navigationController.view.frame.origin.y+40, SCREEN_WIDTH, 100)];
+    textGuide = [[UILabel alloc] initWithFrame:CGRectMake(0, self.navigationController.view.frame.origin.y+55, SCREEN_WIDTH, 80)];
     textGuide.textColor = [UIColor orangeColor];
+    textGuide.textAlignment = NSTextAlignmentCenter;
     textGuide.font = [UIFont fontWithName:@"Helvetica" size:12];
     textGuide.text = sampleText[[BBHSingleton mainData].theme];
+    textGuide.backgroundColor = [UIColor blueColor];
+    textGuide.alpha = .5;
+    
+
 
     [self.view addSubview:textGuide];
 

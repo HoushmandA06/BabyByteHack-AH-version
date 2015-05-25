@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0F5343AD19A9240D00F9B78B /* BBHSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5343AC19A9240D00F9B78B /* BBHSingleton.m */; };
+		0F5343B819A987FF00F9B78B /* title_azalea.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343AE19A987FF00F9B78B /* title_azalea.png */; };
+		0F5343B919A987FF00F9B78B /* shapes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343AF19A987FF00F9B78B /* shapes.png */; };
+		0F5343BA19A987FF00F9B78B /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B019A987FF00F9B78B /* people.png */; };
+		0F5343BB19A987FF00F9B78B /* mealtime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B119A987FF00F9B78B /* mealtime.png */; };
+		0F5343BC19A987FF00F9B78B /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B219A987FF00F9B78B /* house.png */; };
+		0F5343BD19A987FF00F9B78B /* colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B319A987FF00F9B78B /* colors.png */; };
+		0F5343BE19A987FF00F9B78B /* bedtime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B419A987FF00F9B78B /* bedtime.png */; };
+		0F5343BF19A987FF00F9B78B /* bathtime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B519A987FF00F9B78B /* bathtime.png */; };
+		0F5343C019A987FF00F9B78B /* baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B619A987FF00F9B78B /* baby.png */; };
+		0F5343C119A987FF00F9B78B /* animals.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5343B719A987FF00F9B78B /* animals.png */; };
 		91925FD719A8FCC3008EE0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91925FD619A8FCC3008EE0D3 /* Foundation.framework */; };
 		91925FD919A8FCC3008EE0D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91925FD819A8FCC3008EE0D3 /* CoreGraphics.framework */; };
 		91925FDB19A8FCC3008EE0D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91925FDA19A8FCC3008EE0D3 /* UIKit.framework */; };
@@ -48,6 +58,16 @@
 /* Begin PBXFileReference section */
 		0F5343AB19A9240D00F9B78B /* BBHSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHSingleton.h; sourceTree = "<group>"; };
 		0F5343AC19A9240D00F9B78B /* BBHSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHSingleton.m; sourceTree = "<group>"; };
+		0F5343AE19A987FF00F9B78B /* title_azalea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_azalea.png; sourceTree = "<group>"; };
+		0F5343AF19A987FF00F9B78B /* shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapes.png; sourceTree = "<group>"; };
+		0F5343B019A987FF00F9B78B /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		0F5343B119A987FF00F9B78B /* mealtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mealtime.png; sourceTree = "<group>"; };
+		0F5343B219A987FF00F9B78B /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		0F5343B319A987FF00F9B78B /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors.png; sourceTree = "<group>"; };
+		0F5343B419A987FF00F9B78B /* bedtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bedtime.png; sourceTree = "<group>"; };
+		0F5343B519A987FF00F9B78B /* bathtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bathtime.png; sourceTree = "<group>"; };
+		0F5343B619A987FF00F9B78B /* baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby.png; sourceTree = "<group>"; };
+		0F5343B719A987FF00F9B78B /* animals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animals.png; sourceTree = "<group>"; };
 		91925FD319A8FCC3008EE0D3 /* BabyByteHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyByteHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91925FD619A8FCC3008EE0D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91925FD819A8FCC3008EE0D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +139,16 @@
 				9192601619A91346008EE0D3 /* Unknown-6.jpeg */,
 				9192601719A91346008EE0D3 /* Unknown-7.jpeg */,
 				9192601819A91346008EE0D3 /* Unknown.jpeg */,
+				0F5343AE19A987FF00F9B78B /* title_azalea.png */,
+				0F5343AF19A987FF00F9B78B /* shapes.png */,
+				0F5343B019A987FF00F9B78B /* people.png */,
+				0F5343B119A987FF00F9B78B /* mealtime.png */,
+				0F5343B219A987FF00F9B78B /* house.png */,
+				0F5343B319A987FF00F9B78B /* colors.png */,
+				0F5343B419A987FF00F9B78B /* bedtime.png */,
+				0F5343B519A987FF00F9B78B /* bathtime.png */,
+				0F5343B619A987FF00F9B78B /* baby.png */,
+				0F5343B719A987FF00F9B78B /* animals.png */,
 				9192600B19A90902008EE0D3 /* BBHBabyProfile.h */,
 				9192600C19A90902008EE0D3 /* BBHBabyProfile.m */,
 				0F5343AB19A9240D00F9B78B /* BBHSingleton.h */,
@@ -275,15 +305,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				91925FE119A8FCC3008EE0D3 /* InfoPlist.strings in Resources */,
+				0F5343BB19A987FF00F9B78B /* mealtime.png in Resources */,
 				9192601A19A91346008EE0D3 /* Unknown-2.jpeg in Resources */,
+				0F5343BE19A987FF00F9B78B /* bedtime.png in Resources */,
 				91925FE919A8FCC3008EE0D3 /* Images.xcassets in Resources */,
 				9192601B19A91346008EE0D3 /* Unknown-3.jpeg in Resources */,
 				9192602019A91346008EE0D3 /* Unknown.jpeg in Resources */,
+				0F5343B919A987FF00F9B78B /* shapes.png in Resources */,
+				0F5343BC19A987FF00F9B78B /* house.png in Resources */,
 				9192601D19A91346008EE0D3 /* Unknown-5.jpeg in Resources */,
 				9192601F19A91346008EE0D3 /* Unknown-7.jpeg in Resources */,
+				0F5343BF19A987FF00F9B78B /* bathtime.png in Resources */,
+				0F5343C019A987FF00F9B78B /* baby.png in Resources */,
 				9192601E19A91346008EE0D3 /* Unknown-6.jpeg in Resources */,
 				9192601919A91346008EE0D3 /* Unknown-1.jpeg in Resources */,
+				0F5343C119A987FF00F9B78B /* animals.png in Resources */,
+				0F5343BA19A987FF00F9B78B /* people.png in Resources */,
+				0F5343B819A987FF00F9B78B /* title_azalea.png in Resources */,
 				9192601C19A91346008EE0D3 /* Unknown-4.jpeg in Resources */,
+				0F5343BD19A987FF00F9B78B /* colors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

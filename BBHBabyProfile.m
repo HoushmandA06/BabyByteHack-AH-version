@@ -111,7 +111,6 @@
 {
     BBHCollectionVC *collectionVC = [[BBHCollectionVC alloc] initWithCollectionViewLayout:[[UICollectionViewFlowLayout alloc] init]];
     [self.navigationController pushViewController:collectionVC animated:YES];
-    
     collectionVC.navigationController.navigationBarHidden = NO;
     
     
@@ -174,20 +173,27 @@
 {
     self.navigationController.navigationBarHidden = YES;
     UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 30, SCREEN_WIDTH, 60)];
-    //    header.backgroundColor = [UIColor lightGrayColor];
+    // header.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:header];
-    UILabel *headerLabelg = [[UILabel alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH/2,60)];
-    headerLabelg.text = @"BABY";
-    headerLabelg.font = [UIFont fontWithName:@"Savoye LET" size:40];
-    headerLabelg.textColor = [UIColor redColor];
-    headerLabelg.textAlignment = NSTextAlignmentRight;
-    [header addSubview:headerLabelg];
-    UILabel *headerLabelb = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2,0,SCREEN_WIDTH/2,60)];
-    headerLabelb.text = @"BYTE";
-    headerLabelb.font = [UIFont fontWithName:@"Savoye LET" size:40];
-    headerLabelb.textColor = [UIColor blueColor];
-    headerLabelb.textAlignment = NSTextAlignmentLeft;
-    [header addSubview:headerLabelb];
+    
+    UIImageView * logo = [[UIImageView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-60, 30, 120, 60)];
+    [logo setImage:[UIImage imageNamed:@"title_azalea.png"]];
+    [self.view addSubview:logo];
+    
+//    UILabel *headerLabelg = [[UILabel alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH/2,60)];
+//    headerLabelg.text = @"BABY";
+//    headerLabelg.font = [UIFont fontWithName:@"Savoye LET" size:40];
+//    headerLabelg.textColor = [UIColor redColor];
+//    headerLabelg.textAlignment = NSTextAlignmentRight;
+//    [header addSubview:headerLabelg];
+    
+//    UILabel *headerLabelb = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2,0,SCREEN_WIDTH/2,60)];
+//    headerLabelb.text = @"BYTE";
+//    headerLabelb.font = [UIFont fontWithName:@"Savoye LET" size:40];
+//    headerLabelb.textColor = [UIColor blueColor];
+//    headerLabelb.textAlignment = NSTextAlignmentLeft;
+//    [header addSubview:headerLabelb];
+    
     
 }
 
